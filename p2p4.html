@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peer-to-Peer Learning Platform</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-purple-600 text-green py-20" id="home">
+    <div class="container mx-auto text-center px-4" data-aos="fade-down">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Learn Together, Grow Faster</h1>
+      <p class="text-xl mb-8">Connect with peers. Share knowledge. Achieve success.</p>
+      <a href="#features" class="bg-white text-blue-600 font-semibold py-3 px-6 rounded-full shadow hover:bg-gray-100 transition">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16 px-6" id="about">
+    <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-4">What is Our Platform?</h2>
+      <p class="text-lg text-gray-600">Our Peer-to-Peer Learning Platform connects students directly to each other for tutoring, material sharing, and live learning sessions — making education accessible and collaborative.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 bg-gray-100 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Key Features</h2>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
+        
+        <div class="bg-white rounded-lg p-8 shadow hover:shadow-lg transition" data-aos="fade-down">
+          <h3 class="text-xl font-bold mb-4">🎥 Live Tutoring</h3>
+          <p class="text-gray-600">Connect instantly through live video sessions for real-time learning experiences.</p>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 shadow hover:shadow-lg transition" data-aos="fade-right">
+          <h3 class="text-xl font-bold mb-4">📚 Share Materials</h3>
+          <p class="text-gray-600">Upload and download study materials, notes, and resources seamlessly.</p>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 shadow hover:shadow-lg transition" data-aos="fade-down">
+          <h3 class="text-xl font-bold mb-4">💬 Instant Messaging</h3>
+          <p class="text-gray-600">Chat with your peers and mentors easily within the platform.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="py-16 px-6" id="how-it-works">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">How It Works</h2>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
+
+        <div data-aos="fade-up" data-aos-delay="100">
+          <div class="text-5xl mb-4">📝</div>
+          <h4 class="text-xl font-bold mb-2">Sign Up</h4>
+          <p class="text-gray-600">Create your free account and set up your learning profile.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="200">
+          <div class="text-5xl mb-4">🔗</div>
+          <h4 class="text-xl font-bold mb-2">Connect</h4>
+          <p class="text-gray-600">Find and connect with other learners or tutors based on your interests.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="300">
+          <div class="text-5xl mb-4">🚀</div>
+          <h4 class="text-xl font-bold mb-2">Start Learning</h4>
+          <p class="text-gray-600">Begin your learning journey with live sessions, shared materials, and chat.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-16 bg-slate-600 px-6" id="testimonials">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">What Students Say</h2>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-white rounded-lg p-8 shadow text-center">
+            <p class="text-gray-600 mb-4">"An amazing platform! I improved my grades by connecting with awesome tutors."</p>
+            <h4 class="font-bold">— Sarah, Student</h4>
+          </div>
+          <div class="swiper-slide bg-white rounded-lg p-8 shadow text-center">
+            <p class="text-gray-600 mb-4">"Sharing materials with classmates has never been easier. Love it!"</p>
+            <h4 class="font-bold">— James, Student</h4>
+          </div>
+          <div class="swiper-slide bg-white rounded-lg p-8 shadow text-center">
+            <p class="text-gray-600 mb-4">"A real game-changer for online learning. Highly recommended!"</p>
+            <h4 class="font-bold">— Emma, Tutor</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-zinc-800 text-white py-8">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p>&copy; 2025 Peer2Peer Learning. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#about" class="text-white hover:text-gray-300 mx-2">About Us</a>
+        <a href="#contact" class="text-white hover:text-gray-300 mx-2">Contact</a>
+        <a href="#" class="text-white hover:text-gray-300 mx-2">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+</body>
+</html>
